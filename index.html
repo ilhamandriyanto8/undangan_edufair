@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Edu Fair & Career Day 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                EduFair<span>2026</span>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Buka menu">
+                ☰
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#lokasi">Waktu & Tempat</a></li>
+                <li><a href="#rundown">Rundown</a></li>
+                <li><a href="#benefit">Benefit</a></li>
+                <li><a href="#rsvp" class="nav-button">RSVP</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero" id="home">
+        <div class="container">
+            <span class="badge">UNDANGAN RESMI</span>
+
+            <h1>Edu Fair & Career Day 2026</h1>
+
+            <p class="tema">
+                "Shaping Future Leaders: Bridge to Higher Education & Global Industry"
+            </p>
+
+            <div class="guest-box">
+                <p>Kepada Yth.</p>
+                <h2 id="display-instansi">Tamu Undangan Kehormatan</h2>
+                <span id="display-kategori" class="tag-kategori">Umum</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- WAKTU & LOKASI -->
+        <section class="card" id="lokasi">
+            <h3>📅 Waktu & Tempat Pelaksanaan</h3>
+
+            <p><strong>Hari/Tanggal:</strong> Sabtu, 28 November 2026</p>
+            <p><strong>Waktu:</strong> 08.00 – 15.00 WIB</p>
+            <p><strong>Tempat:</strong> Aula Utama & Lapangan Indoor SMK Negeri 6 Tangerang Selatan</p>
+
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.744106311732!2d106.6669!3d-6.2973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMTcnNTAuMyJTIDEwNsKwNDAnMDAuOCJF!5e0!3m2!1sid!2sid!4v1600000000000!5m2!1sid!2sid"
+                    width="100%"
+                    height="250"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+            </div>
+        </section>
+
+        <!-- RUNDOWN -->
+        <section class="card" id="rundown">
+            <h3>🕒 Rundown Acara</h3>
+
+            <div class="table-responsive">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Waktu</th>
+                            <th>Kegiatan</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>08.00 - 08.30</td>
+                            <td>Registrasi & Penyambutan Tamu VIP / Mitra</td>
+                        </tr>
+
+                        <tr>
+                            <td>08.30 - 09.15</td>
+                            <td>Pembukaan & Sambutan Kepala Sekolah</td>
+                        </tr>
+
+                        <tr>
+                            <td>09.15 - 12.00</td>
+                            <td>Pameran Booth Kampus, Perusahaan & Sesi Konsultasi</td>
+                        </tr>
+
+                        <tr>
+                            <td>12.00 - 13.00</td>
+                            <td>ISHOMA (Istirahat, Sholat, Makan Siang)</td>
+                        </tr>
+
+                        <tr>
+                            <td>13.00 - 14.30</td>
+                            <td>Talkshow Karier & Sharing Session Alumni</td>
+                        </tr>
+
+                        <tr>
+                            <td>14.30 - 15.00</td>
+                            <td>Penyerahan Plakat Mitra & Penutupan</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- BENEFIT -->
+        <section class="card" id="benefit">
+            <h3>🎁 Benefit Booth & Mitra</h3>
+
+            <ul class="benefit-list">
+                <li>Stand booth ukuran 3x3 meter lengkap dengan meja, 2 kursi, dan akses listrik.</li>
+                <li>Konsumsi makan siang dan coffee break untuk 2 orang perwakilan.</li>
+                <li>Sesi presentasi profil instansi di panggung utama selama 15 menit.</li>
+                <li>Publikasi logo instansi di seluruh media promosi acara sekolah.</li>
+                <li>Sertifikat penghargaan dan plakat kerja sama resmi dari sekolah.</li>
+            </ul>
+        </section>
+
+        <!-- RSVP -->
+        <section class="card" id="rsvp">
+            <h3>📝 Konfirmasi Kehadiran (RSVP)</h3>
+
+            <form id="rsvp-form">
+
+                <div class="form-group">
+                    <label>Nama Perwakilan / Tamu</label>
+                    <input
+                        type="text"
+                        id="rsvp-nama"
+                        placeholder="Masukkan nama lengkap Anda"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label>Nama Instansi / Universitas / Perusahaan</label>
+                    <input type="text" id="rsvp-instansi" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Konfirmasi Kehadiran</label>
+
+                    <select id="rsvp-status" required>
+                        <option value="Hadir">Ya, Saya Akan Hadir</option>
+                        <option value="Mewakilkan">Hadir (Diwakilkan)</option>
+                        <option value="Tidak Hadir">Maaf, Belum Bisa Hadir</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Jumlah Perwakilan yang Hadir</label>
+
+                    <input
+                        type="number"
+                        id="rsvp-jumlah"
+                        min="1"
+                        max="5"
+                        value="1">
+                </div>
+
+                <button type="submit" class="btn-primary">
+                    Kirim Konfirmasi RSVP
+                </button>
+
+            </form>
+
+            <div id="rsvp-result" class="alert-success" style="display:none;"></div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Panitia Edu Fair & Career Day - Tim Pengembang Web RPL</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
